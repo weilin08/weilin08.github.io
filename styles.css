@@ -1,0 +1,215 @@
+body {
+    background: url('assets/bkground.png'), lightgray 50%;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    margin: 0;
+    overflow: hidden;
+}
+/* .background {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    lightgray 50%
+} */
+.background-overlay-1 {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background: #8E642F;
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
+
+/* .background-overlay-2 {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background: lightgray;
+    mix-blend-mode: overlay;
+} */
+
+.main-card {
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: calc(50vh - 22.5vw);
+    width: 30vw;
+    height: 45vw;
+    border-radius: 4vw;
+    z-index: 10;
+    background-color: #F9E9B4;
+    background-image: url("assets/grid.png");
+    background-position: center, center;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weilin-pic {
+    width: 75%;
+}
+
+.icons-container {
+    width: 75%;
+    height: 9%;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 1vw;
+    align-items: center;
+    background-color: #EFB768;
+}
+
+a {
+    text-decoration: none;
+}
+
+.socials:hover {
+    filter: drop-shadow(0px 0px 0.2621249854564667px #FFCB18) drop-shadow(0px 0px 0.5242499709129333px #FFCB18) drop-shadow(0px 0px 1.8348749876022339px #FFCB18) drop-shadow(0px 0px 3.6697499752044678px #FFCB18) drop-shadow(0px 0px 6.290999889373779px #FFCB18) drop-shadow(0px 0px 11.009249687194824px #FFCB18);
+}
+
+.socials:hover>path {
+    fill: #DF6830;
+}
+
+#portfolio-svg:hover {
+    filter: drop-shadow(0px 0px 0.2621249854564667px #FFCB18) drop-shadow(0px 0px 0.5242499709129333px #FFCB18) drop-shadow(0px 0px 1.8348749876022339px #FFCB18) drop-shadow(0px 0px 3.6697499752044678px #FFCB18) drop-shadow(0px 0px 6.290999889373779px #FFCB18) drop-shadow(0px 0px 11.009249687194824px #FFCB18);
+}
+
+#portfolio-svg:hover>path {
+    fill: #DF6830;
+}
+
+.socials {
+    width: 50%;
+    height: 50%;
+    /* margin-left: 25%;
+    margin-top: 25%; */
+    display: block;
+    margin: auto;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+#name {
+    color: #8B533C;
+    font-family: "Sarpanch";
+    font-size: 2.3vw; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+#pronouns {
+    color: #8B533C;
+    font-family: "Sarpanch";
+    font-size: 1.7vw; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.location-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 75%;
+    height: 5%;
+    margin-top: -2%;
+}
+
+#map-marker {
+    height: 75%;
+}
+
+#location {
+    color: #8B533C;
+    font-family: "Sarpanch";
+    font-size: 1.275vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    flex-shrink: 0;
+    height: 20%;
+    margin-top: 2.5%;
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: baseline;
+    flex-shrink: 0;
+    border-radius: 1vw;
+    background-color: #EFB768;
+    width: 50%;
+    margin: 0;
+    height: 100%;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 1vw;
+    background-color: #EFB768;
+    margin: 0;
+    width: 42.75%;
+    margin-left: 7.25%;
+    height: 100%;
+}
+
+#interests-title {
+    color: #8B533C;
+    font-family: "Sarpanch";
+    font-size: 1.725vw; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+#interests-list {
+    color: #8B533C;
+    font-family: "Sarpanch";
+    font-size: 1.3vw; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding-left: 1.5vw;
+    text-align: left;
+}
+
+#portfolio-title {
+    color: #8B533C;
+    font-family: "Sarpanch";
+    font-size: 1.725vw; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+#portfolio-svg {
+    width: 80%;
+    height: 80%;
+}
