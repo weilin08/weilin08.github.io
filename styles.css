@@ -41,12 +41,10 @@ body {
 */
 .main-card {
     position: absolute;
-    margin-left: calc(50vw - max(1.5625in, 15vw));
-    margin-top: calc(50vh - max(2.34375in, 22.5vw));
-    width: 30vw;
-    min-width: 3.125in;
-    height: 45vw;
-    min-height: 4.6875in;
+    margin-left: calc(50vw - 15vmax);
+    margin-top: calc(50vh - 22.5vmax);
+    width: 30vmax;
+    height: 45vmax;
     border-radius: 4vw;
     z-index: 10;
     background-color: #F9E9B4;
@@ -113,7 +111,7 @@ a {
 #name {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: max(0.24in, 2.3vw);
+    font-size: 2.3vmax; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -123,7 +121,7 @@ a {
 #pronouns {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: max(0.177in, 1.7vw); 
+    font-size: 1.7vmax; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -146,7 +144,7 @@ a {
 #location {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: max(0.1328in, 1.275vw);
+    font-size: 1.275vmax;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -193,7 +191,7 @@ a {
 #interests-title {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: max(0.18in, 1.725vw); 
+    font-size: 1.725vmax; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -203,19 +201,19 @@ a {
 #interests-list {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: max(0.135in, 1.3vw); 
+    font-size: 1.3vmax; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin: 0;
-    padding-left: max(0.15625in, 1.5vw);
+    padding-left: 1.5vmax;
     text-align: left;
 }
 
 #portfolio-title {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: max(0.18in, 1.725vw); 
+    font-size: 1.725vmax; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
