@@ -45,7 +45,7 @@ body {
     margin-top: calc(50vh - 22.5vmax);
     width: 30vmax;
     height: 45vmax;
-    border-radius: 4vw;
+    border-radius: 4vmax;
     z-index: 10;
     background-color: #F9E9B4;
     background-image: url("assets/grid.png");
@@ -67,7 +67,7 @@ body {
     height: 9%;
     display: flex;
     flex-shrink: 0;
-    border-radius: 1vw;
+    border-radius: 1vmax;
     align-items: center;
     background-color: #EFB768;
 }
@@ -111,7 +111,7 @@ a {
 #name {
     color: #8B533C;
     font-family: "Sarpanch";
-    font-size: 2.3vmax; 
+    font-size: 2.2vmax; 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -167,7 +167,7 @@ a {
     text-align: center;
     justify-content: baseline;
     flex-shrink: 0;
-    border-radius: 1vw;
+    border-radius: 1vmax;
     background-color: #EFB768;
     width: 50%;
     margin: 0;
@@ -180,7 +180,7 @@ a {
     text-align: center;
     justify-content: center;
     flex-shrink: 0;
-    border-radius: 1vw;
+    border-radius: 1vmax;
     background-color: #EFB768;
     margin: 0;
     width: 42.75%;
