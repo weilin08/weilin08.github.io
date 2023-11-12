@@ -25,6 +25,7 @@ body {
     height: 100%;
 }
 
+
 .leaf {
     position: absolute;
     z-index: 11;
@@ -83,12 +84,13 @@ body {
     width: 30vw;
     height: 45vw;
 */
+
 .main-card {
     position: absolute;
-    margin-left: calc(50vw - 15vmax);
-    margin-top: calc(50vh - 22.5vmax);
-    width: 30vmax;
-    height: 45vmax;
+    margin-left: calc(50vw - 16.25vmax);
+    margin-top: calc(50vh - 24.375vmax);
+    width: 32.5vmax;
+    height: 48.75vmax;
     border-radius: 4vmax;
     z-index: 10;
     background-color: #F9E9B4;
